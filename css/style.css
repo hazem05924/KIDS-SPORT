@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+/* start main */
+button>div{
+    height: 40px;
+    width: 50px;
+}
+button>div>div{
+    height: 4px !important;
+    width: 40px ;
+    background-color: white;
+    margin: 10px !important;
+    border-radius: 5px !important;
+}
+
+main {
+    height: 1300px;
+    width: 100%;
+    background-image: url(../img/bgdmian1.png),url(../img/bgmain.png);
+    background-repeat: no-repeat;
+    background-size: 61.1% ,77.5%;
+    background-position:top 385px right 194px ,top 280px right 175px;
+    position: relative;
+}
+main header{
+    height: 124px;
+    
+}
+header>nav>a{
+    color: white !important;
+}
+header{
+    background-color: #ff1f2a;
+}
+.icon>a{
+    margin: 2px ;
+    text-decoration: none;
+}
+main>div{
+    margin-top: 100px;
+}
+main>div>h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 100px;
+    color: #ffd700;
+}
+main>div>p{
+    font-size: 35px;
+    color: #ffd700;
+}
+main::after{
+    content: url(../img/Polygon.png);
+    position: absolute;
+    right: 150px;
+    top: 950px;
+}
+main::before{
+    content: url(../img/Rectangle.png);
+    position: absolute;
+    right: 318px;
+    top: 255px;
+}
+main>div::before{
+    content: url(../img/Rectangle.png);
+    position: absolute;
+    left: 100px;
+    bottom: 260px;
+    transform: rotate(135deg);
+}
+main>div::after{
+    content: url(../img/Ellipse.png);
+    position: absolute;
+    right: 600px;
+    top: 1050px;
+    
+}
+/* end main */
+
+
+
+/* start section1 */
+#section1{
+    height: 1900px !important;
+    background-image: url(../img/section2.png),url(../img/Object.png);
+    background-position:top 705px left 296px ,top 450px left 0;
+    background-repeat: no-repeat;
+    background-size: 47%, 67%;
+    position: relative;
+    
+}
+#section1>.title{
+    height: 90vh;
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+#section1>.title :nth-child(2){
+    width: 450px;
+    color:#51024e ;
+    font-weight: 600;
+}
+#input{
+    border: none;
+    outline: none;
+    background-color: #efefef;
+    position:absolute
+
+}
+.fa-search{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-size: 25px;
+    transform: translateY(-50%);
+    color: #cccccc;
+}
+#section1>.title :nth-child(3){
+    width: 565px ;
+    height: 55px;
+    position: relative;
+} 
+.body-section{
+    width: 25%;
+    position: absolute;
+    right: 70px;
+    top: 52%;
+    color: #51024e;
+    text-align: justify;
+
+}
+.body-section h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title::after{
+    content: url(../img/Rectangle.png);
+    position: absolute;
+    right: 156px;
+    top: 20px;
+    transform: rotate(135deg);
+}
+.title::before{
+    content: url(../img/Rectangle.png);
+    position: absolute;
+    left: 250px;
+    bottom:1100px ;
+}
+.body-section::after{
+    content: url(../img/red.png);
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
+}
+#section1::before{
+    content: url(../img/Polygon.png);
+    position: absolute;
+    left: 350px;
+    bottom: -50px;
+    transform: rotate(180deg);
+}
+/* end section1 */
+
+/* start section2 */
+#section2{
+    min-height: 170vh;
+    background-image:url(../img/famle.png) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:bottom -50px right 0 ;
+    color: #51bd1f;
+    font-weight: 600;
+    text-align: justify;
+}
+#section2>.container>div{
+    position: absolute;
+    top: 350px;
+}
+.w-35{
+    width: 35% !important;
+}
+#section2 .row h1{
+    font-size: 60px;
+    font-weight: bold;
+    background-image: url(../img/h.svg.png);
+}
+#section2 .row a{
+    background-color: #ff6d00;
+    width: 150px;
+}
+#section2::after{
+    content: url(../img/Rectangle.png);position: absolute;bottom: 200px;left: 200px;transform: rotate(135deg);
+}
+#section2::before{
+    content: url(../img/red2.png);
+    position: absolute;bottom: 100px;right: 100px;
+}
+/* end section2 */
+
+/* start section3 */
+#section3{
+    height: 1600px;
+    background-image: url(../img/oriang.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: bottom 100px right 0;
+}
+#section3>div{
+    width: 800px;
+    bottom: 350px;
+    right: 100px;
+}
+#section3>div>h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 120px;
+    color: #fff;
+}
+#section3::after{
+    content: url(../img/red.png);position: absolute;bottom: 400px;left: 180px;
+}
+#section3::before{
+    content: url(../img/Rectangle.png);position: absolute;bottom: 100px;left:40%;
+}
+/* end secetion3 */
+/* start section4 */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap');
+#section4{
+    width: 100%;
+    height: 130vh;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #3752a5;
+}
+
+/* end section4 */
+
+/* start footer */
+footer{
+    height: 100vh;
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 0 ;
+    color: #46084e;
+    font-weight: 600;
+}
+footer a{
+    color: inherit;
+    text-decoration: none;
+}
+footer .footer-con{
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+}
+footer .row{
+    border-bottom: solid 1px #46084e;
+    width: 100%;
+
+
+}
+/* end footer */
